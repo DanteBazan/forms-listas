@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ejercicio 3</title>
   </head>
   <body>
     <header>
@@ -15,5 +15,64 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <h1>Formulario De Registro</h1>
+      <form>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" required />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="apellido">Apellido:</label>
+          <input type="text" required />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="modalidad">Modalidad De Cursada:</label>
+          <input type="radio" name="modalidad" required />
+          <label for="modalidad">On-Demand</label>
+          <input type="radio" name="modalidad" required />
+          <label for="modalidad">En Vivo</label>
+        </div>
+
+        <br />
+
+        <div>
+          <label for="email">Correo:</label>
+          <input type="email" required />
+        </div>
+
+        <br />
+
+        <div>
+          <input type="checkbox" required />
+          <label for="condiciones"
+            >Acepto recibir informacion sobre nuevos posteos en la plataforma de
+            Nucba</label
+          >
+        </div>
+
+        <br />
+
+        <div>
+          <input type="checkbox" required />
+          <label for="condiciones"
+            >Declaro que lei los terminos y condiciones y estoy listo
+            paraconvertirme en desarrollador web Full Stack</label
+          >
+        </div>
+
+        <br />
+
+        <div>
+          <input type="submit" />
+        </div>
+      </form>
+    </main>
   </body>
 </html>
